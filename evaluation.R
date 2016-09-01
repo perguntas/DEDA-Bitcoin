@@ -79,8 +79,8 @@ for (f in 1:nrow(settings)){
 # dev.off()
 
 k_choice     = rbind(expand.grid(j = 20, i = 1:3, k = c(20:120), eval = c(1, 2)), 
-                      expand.grid(j = 50, i = 1:3, k = c(50:150), eval = c(1, 2)),
-                      expand.grid(j = 150, i = 1:3, k = c(150:250)), eval = c(1, 2))
+                     expand.grid(j = 50, i = 1:3, k = c(50:150), eval = c(1, 2)),
+                     expand.grid(j = 150, i = 1:3, k = c(150:250)), eval = c(1, 2))
       
 k_choice$asw = numeric(nrow(k_choice))
 k_choice     = k_choice[with(k_choice, order(eval, i, j)), ]
@@ -90,18 +90,18 @@ for (m in 1:nrow(k_choice)){
   # find k medoids with highest silhouette coefficient
   if (k_choice$eval[m] == 1){
     k_choice$asw[m] = pam(get(paste0("dist", k_choice$j[m], ".", k_choice$i[m], "prior")), 
-                           k = k_choice$k[m], diss = T)$silinfo$avg.width
+                          k = k_choice$k[m], diss = T)$silinfo$avg.width
 
   } else {
     k_choice$asw[m] = pam(get(paste0("dist", k_choice$j[m], ".", k_choice$i[m])), 
-                           k = k_choice$k[m], diss = T)$silinfo$avg.width
+                          k = k_choice$k[m], diss = T)$silinfo$avg.width
   }
 }
 
 vec    = c(1:101)
 k_best = as.data.frame(matrix(0, 
-                               nrow = (nrow(k_choice)/3), 
-                               ncol = ncol(k_choice)))
+                              nrow = (nrow(k_choice)/3), 
+                              ncol = ncol(k_choice)))
 colnames(k_best) = colnames(k_choice)
 
 for (i in 1:nrow(settings)){
@@ -109,7 +109,7 @@ for (i in 1:nrow(settings)){
   
   if (k_best$eval[i] == 1){
     assign(paste0("k_fit", k_best$j[i], ".", k_best$i[i], ".", k_best$k[i], "prior"),
-           pam(get(paste0("dist", k_best$j[i], ".", k_choice$i[i], "prior")), k = k_best$k[i]))
+          pam(get(paste0("dist", k_best$j[i], ".", k_choice$i[i], "prior")), k = k_best$k[i]))
     
     assign(paste0("results", k_best$j[i], ".", k_best$i[i], ".", k_best$k[i], "prior"),
            eval(c_fit = get(paste0("k_fit", k_best$j[i], ".", k_best$i[i], ".", k_best$k[i], "prior")),
