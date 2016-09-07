@@ -1,13 +1,3 @@
-# Evaluation
-
-# This file evaluates all simulation settings by first preparing the raw transaction data properly
-# and then conducting cluster analysis. 
-# the clusters are optimized by maximizing the silhouette coefficient but the option to use the HAC
-# also exists.
-
-# This file returns "results" table which contain the raw counts which users 
-# are assigned to how many different clusters. 
-
 path = ""
 setwd(path)
 
