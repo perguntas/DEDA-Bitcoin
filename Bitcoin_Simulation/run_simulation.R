@@ -1,17 +1,4 @@
-#--------------------------------------------------
-# Quantlet: Simulating a Bitcoin Network 
-#--------------------------------------------------
-# Description: Simulates a network of employees
-# and firms over a time period of ten weeks with
-# flexible parameters regarding the frequency
-# with which transaction types take place.
-#--------------------------------------------------
-# Keywords: Bitcoin, blockchain
-#--------------------------------------------------
-# Author: Lara Vomfell, 2016 / 29 / 08
-#--------------------------------------------------
-
-
+# Requires an internet connection
 path = ""
 setwd(path)
 
