@@ -1,0 +1,12 @@
+
+Name of Quantlet: Mitcoin_Privacy_Evaluation
+
+Published in: Q-Kolleg Seminar Paper
+
+Description: 'Simulates a business network of Bitcoin users. Adopts inherent features in Bitcoin to connect and cluster Bitcoin addresses. Returns a table of how well the users are assigned to the optimal clusters.'
+
+Keywords : Bitcoin, Blockchain, Crypto Privacy, Clustering
+
+Author: Lara Vomfell
+
+Submitted:  Wed, Sep 8 2016 by Lara Vomfell
