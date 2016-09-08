@@ -3,10 +3,10 @@ Name of Quantlet: Bitcoin_Evaluation
 
 Published in: Q-Kolleg Seminar Paper
 
-Description: 'Simulates a network of employees and firms over a time period of ten weeks 
-with flexible parameters regarding the frequency with which transaction types take place. 
-Saves a file containing the transaction data and the corresponding truth table used to 
-simulate the data.'
+Description: 'Analyzes transaction data obtained by Bitcoin_Evaluation.R. 
+Connects and clusters Bitcoin addresses to approximate the true users. 
+Returns a table of how well the users are assigned to the optimal clusters.'
+
 
 Keywords: Bitcoin, Crypto, Simulation, Blockchain, Network
 
