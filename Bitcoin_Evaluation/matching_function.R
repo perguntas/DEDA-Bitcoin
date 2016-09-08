@@ -83,4 +83,4 @@ prior_function = function(transaction.data, dates, address.tables, parser, inter
     }
     return(as.dist(dist))
 }
-80
+
