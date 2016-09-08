@@ -5,7 +5,7 @@ Published in: Q-Kolleg Seminar Paper
 
 Description: 'Simulates a network of employees and firms over a time period of ten weeks with flexible parameters regarding the frequency with which transaction types take place. Saves a file containing the transaction data and the corresponding truth table used to simulate the data.'
 
-Keywords : Bitcoin, Blockchain, Crypto Privacy
+Keywords : Bitcoin, Crypto, Simulation, Blockchain, Network
 
 Author: Lara Vomfell
 
