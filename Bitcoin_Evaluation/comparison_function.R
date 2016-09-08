@@ -15,4 +15,4 @@ eval = function(c_fit, size, scenario) {
     
     return(as.data.frame.table(eval))
 }
-80
+
