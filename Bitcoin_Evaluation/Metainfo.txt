@@ -10,6 +10,6 @@ Returns a table of how well the users are assigned to the optimal clusters.'
 
 Keywords: Bitcoin, Crypto, Simulation, Blockchain, Network
 
-Author: Lara Vomfell
+Author: Lara Vomfell, Jiejie Zhang
 
-Submitted:  Wed, Sep 8 2016 by Lara Vomfell
+Submitted by:  Wed, Sep 8 2016 by Jiejie Zhang
