@@ -588,4 +588,4 @@ for (i in 1:nrow(params)) {
     results[[i]] = sim(t = 10, pop.size.init = params$size[i], settings = settings, threshold = 0.8, 
         params$scenario[i])
 }
-80
+
