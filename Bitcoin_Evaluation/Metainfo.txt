@@ -3,7 +3,7 @@ Name of Quantlet: Bitcoin_Evaluation
 
 Published in: Q-Kolleg Seminar Paper
 
-Description: 'Analyzes transaction data obtained by Bitcoin_Evaluation.R. 
+Description: 'Analyzes transaction data obtained by Bitcoin_Evaluation. 
 Connects and clusters Bitcoin addresses to approximate the true users. 
 Returns a table of how well the users are assigned to the optimal clusters.'
 
@@ -12,4 +12,4 @@ Keywords: Bitcoin, Crypto, Simulation, Blockchain, Network
 
 Author: Lara Vomfell, Jiejie Zhang
 
-Submitted by:  Wed, Sep 8 2016 by Jiejie Zhang
+Submitted by:  Wed, Sep 8 2016
