@@ -4,14 +4,20 @@
 
 ```yaml
 
-Name of Quantlet : Bitcoin_Evaluation
+Name of Quantlet: Bitcoin_Evaluation
+
+Published in: Q-Kolleg Seminar Paper
+
+Description: 'Analyzes transaction data obtained by Bitcoin_Evaluation. 
+Connects and clusters Bitcoin addresses to approximate the true users. 
+Returns a table of how well the users are assigned to the optimal clusters.'
 
 
-Description : 'Analyzes transaction data obtained by simulating a business network of Bitcoin users. It makes use of two inherent features in Bitcoin to connect Bitcoin addresses and then clusters the remaining addresses to approximate the true users based on cosine dissimilarity. It returns a table of how well the users are assigned to the optimal clusters.'
+Keywords: Bitcoin, Crypto, Simulation, Blockchain, Network
 
-Keywords : 'Bitcoin, Blockchain, Crypto Privacy'
+Author: Lara Vomfell, Jiejie Zhang
 
-Author : Lara Vomfell
+Submitted by: Wed, Sep 8 2016
 
 ```
 
